@@ -1,0 +1,27 @@
+body{
+    background:url("http://webresizer.com/images2/bird1_after.jpg") right top;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size:40pt;
+    color:green;
+}
+
+p{
+    font-size:15pt;
+}
+
+ul{
+    margin-right:15px;
+}
+
+table, td, th, tr{
+    text-align:center;
+    border:solid black 1px;
+    border-collapse: collapse;
+}

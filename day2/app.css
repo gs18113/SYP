@@ -1,0 +1,46 @@
+/* body{
+    background:url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Golden_Gate_Bridge_bw.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+} */
+
+h1{
+    font-size:30pt;
+    color:blue;
+}
+
+p{
+    font-size:14pt;
+    color:rgba(224, 144, 123, 0.4);
+}
+
+#green{
+    font-size:14pt;
+    color:green;
+}
+
+.green{
+    font-size:14pt;
+    color:rgba(224, 144, 123, 0.4);
+}
+
+
+.yellow{
+    font-size:14pt;
+    color:yellow;
+}
+
+#yellow{
+    font-size:14pt;
+    color:maroon;
+}
+
+p{
+    font-size:14pt;
+    color:red;
+}
+/*
+p:after{
+    background-color:green;
+    content:"hello";
+}*/

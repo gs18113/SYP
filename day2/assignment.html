@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Club Membership Registration</h1>
+    <p>Complete the form below to sign up for our membership service.</p>
+    <hr>
+    <form>
+        <div>
+            <label for="name"><strong>Name:</strong></label>
+            <span>
+                <input id="name" type="text" placeholder="First Name"/>
+                <input type="text" placeholder="Second Name"/>
+            </span>
+        </div>
+        <div>
+            <label for="email"><strong>E-mail:</strong></label>
+            <span>
+                <input id="email" size="25" type="email" placeholder="ex: myname@example.com"/>
+            </span>
+        </div>
+        <div>
+            <label for="phone"><strong>Phone number: </strong></label>
+            <span>
+                <input id="phone" type="text" placeholder="Area Code"/> - <input type="text" placeholder="Phone Number"/>
+            </span>
+        </div>
+        <div>
+            <label for="address"><strong>Address:</strong></label>
+            <div>
+                <input id="address" type="text" placeholder="Street Address"/>
+            </div>
+            <div>
+                <input type="text" placeholder="Street Address Line 2"/>
+            </div>
+            <div>
+                <input type="text" size="7" placeholder="City"/>
+                <input type="text" size="7" placeholder="State/Province"/>
+            </div>
+            <div>
+                <input type="text" size="3" placeholder="Postal/Zip Code"/>
+                <select>
+                    <option>Please Select</option>
+                    <option>US</option>
+                    <option>India</option>
+                    <option>Germany</option>
+                    <option>Korea</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label for="birth"><strong>Birth date:</strong></label>
+            <input id="birth" type="date"/>
+        </div>
+        <div>
+            <strong>Where did you hear about us?</strong>
+
+            <div>
+            <input type="checkbox" id="friend"/>
+            <label for="friend">A Friend or colleague</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="google"/>
+            <label for="google">Google</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="blog"/>
+            <label for="blog">Blog Post</label>
+            </div>
+
+            <div>
+            <input type="checkbox" id="news"/>
+            <label for="news">News Article</label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

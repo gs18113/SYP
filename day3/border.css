@@ -1,0 +1,13 @@
+li a{
+    border: 3px dotted green;
+}
+
+.heading{
+    border: 0.5px solid red;
+    font-family:'Courier New';
+    text-decoration:line-through underline;
+}
+
+h3 + h4{
+    border: 2px solid black;
+}
